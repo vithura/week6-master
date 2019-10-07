@@ -1,0 +1,22 @@
+.one img {
+    /* default is float: none */
+    float: left;
+    margin-right: 10px;
+}
+
+.two img {
+    float: right;
+    margin-left: 10px;
+
+}
+
+.three img {
+    float: left;
+    margin-right: 10px;
+
+}
+/* use clear on the affected element*/
+.three {
+    clear: right;
+    
+}
